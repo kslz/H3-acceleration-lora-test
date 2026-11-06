@@ -98,12 +98,10 @@ P2 / P3 的二采耗时较短，T4_4 的脸、手 FineVQ 综合均值略领先�
     summary_rows = []
     for id_ in IDS:
         row = by_key[(id_, 1)]
-        roi = ["不参与排名†"] * 2 if id_ == "B50" else [fmt(mean(id_, rg, "overall")) for rg in ["face", "hand"]]
+        roi = [fmt(mean(id_, rg, "overall")) for rg in ["face", "hand"]]
         summary_rows.append([f"**{id_}**", LABELS[id_], fmt(elapsed(id_), 1), fmt(mean(id_, "native", "overall")), fmt(mean(id_, "dover", "overall_mean")), *roi])
     readme += table(headers, summary_rows, range(2, 7))
     readme += """
-† B50 局部原始分数在完整得分表中保留，并标注出框情况。U0、二采候选和 B50 的耗时口径见上文。
-
 ### 各方案参考
 
 """
