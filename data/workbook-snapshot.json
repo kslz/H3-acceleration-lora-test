@@ -1,0 +1,1215 @@
+{
+  "schema": "h3_github_report_v1",
+  "test_date": "2026-11-06",
+  "source_workbook": "H3两种子二采对照.xlsx",
+  "source_sheet": "评分汇总",
+  "source_range": "A8:AK21",
+  "rows": [
+    {
+      "id": "U0",
+      "seed": 1,
+      "source_row": 8,
+      "filename": "U0_00001-audio.mp4",
+      "resolution": "1088×1920",
+      "config_columns": [
+        "Pika Flex Ref2VA",
+        6,
+        "手动6步（LCM；点列见参数表）",
+        "无加速LoRA",
+        0,
+        "0步：仅放大 latent 后 VAE 解码"
+      ],
+      "elapsed_s": 63.61359119415283,
+      "native": {
+        "overall": 67,
+        "blur": 68.5,
+        "noise": 64.5,
+        "artifact": 68,
+        "temporal": 63,
+        "color": 67
+      },
+      "dover": {
+        "technical_mean": 13.950992032799187,
+        "aesthetic_mean": 99.04944655677029,
+        "overall_mean": 66.80533107233815
+      },
+      "face": {
+        "overall": 49.75,
+        "blur": 48.5,
+        "noise": 51.75,
+        "artifact": 49.75,
+        "temporal": 42.5,
+        "color": 53.75
+      },
+      "hand": {
+        "overall": 30.5,
+        "blur": 31,
+        "noise": 36.75,
+        "artifact": 32.25,
+        "temporal": 29.125,
+        "color": 33.5
+      },
+      "video_sha256": "7e1c63c486136e3cb867b6b5bae1d74b13726e2d47241962ada2bacf2cba012c"
+    },
+    {
+      "id": "U0",
+      "seed": 2,
+      "source_row": 9,
+      "filename": "U0_00001-audio.mp4",
+      "resolution": "1088×1920",
+      "config_columns": [
+        "Pika Flex Ref2VA",
+        6,
+        "手动6步（LCM；点列见参数表）",
+        "无加速LoRA",
+        0,
+        "0步：仅放大 latent 后 VAE 解码"
+      ],
+      "elapsed_s": 59.02288746833801,
+      "native": {
+        "overall": 67.5,
+        "blur": 68.5,
+        "noise": 64.5,
+        "artifact": 68,
+        "temporal": 63.75,
+        "color": 67.5
+      },
+      "dover": {
+        "technical_mean": 13.025642588299393,
+        "aesthetic_mean": 99.10769271753922,
+        "overall_mean": 66.28151231397418
+      },
+      "face": {
+        "overall": 48.5,
+        "blur": 47.75,
+        "noise": 50.5,
+        "artifact": 48.75,
+        "temporal": 41.5,
+        "color": 52.75
+      },
+      "hand": {
+        "overall": 30.75,
+        "blur": 31.75,
+        "noise": 37,
+        "artifact": 33,
+        "temporal": 29.5,
+        "color": 34.5
+      },
+      "video_sha256": "9f598c876c9959c883672b057edf7be9a0db4eb07802440fec9459c6f649e261"
+    },
+    {
+      "id": "P2",
+      "seed": 1,
+      "source_row": 10,
+      "filename": "P2_00001-audio.mp4",
+      "resolution": "1088×1920",
+      "config_columns": [
+        "Pika Flex Ref2VA",
+        6,
+        "手动6步（LCM；点列见参数表）",
+        "Pika Flex Ref2VA",
+        2,
+        "LCM 手动2步：0.571429 → 0.333333 → 0"
+      ],
+      "elapsed_s": 188.4927749633789,
+      "native": {
+        "overall": 69,
+        "blur": 71,
+        "noise": 66,
+        "artifact": 70,
+        "temporal": 65.5,
+        "color": 69
+      },
+      "dover": {
+        "technical_mean": 14.366468591451179,
+        "aesthetic_mean": 99.42246241950579,
+        "overall_mean": 71.42283961324387
+      },
+      "face": {
+        "overall": 54.5,
+        "blur": 53.75,
+        "noise": 55.25,
+        "artifact": 54.75,
+        "temporal": 46.25,
+        "color": 57.5
+      },
+      "hand": {
+        "overall": 36,
+        "blur": 37.75,
+        "noise": 42,
+        "artifact": 39,
+        "temporal": 32.5,
+        "color": 39
+      },
+      "video_sha256": "e29fca3a591a0cbd25144bef8d2ea834c84fa1549e2751d4a23f5a1b16d34262"
+    },
+    {
+      "id": "P2",
+      "seed": 2,
+      "source_row": 11,
+      "filename": "P2_00001-audio.mp4",
+      "resolution": "1088×1920",
+      "config_columns": [
+        "Pika Flex Ref2VA",
+        6,
+        "手动6步（LCM；点列见参数表）",
+        "Pika Flex Ref2VA",
+        2,
+        "LCM 手动2步：0.571429 → 0.333333 → 0"
+      ],
+      "elapsed_s": 179.38625049591064,
+      "native": {
+        "overall": 69.5,
+        "blur": 71,
+        "noise": 66.5,
+        "artifact": 70,
+        "temporal": 66,
+        "color": 69.5
+      },
+      "dover": {
+        "technical_mean": 13.497673353124513,
+        "aesthetic_mean": 99.53056362057607,
+        "overall_mean": 72.1719477222249
+      },
+      "face": {
+        "overall": 53.25,
+        "blur": 52.75,
+        "noise": 54,
+        "artifact": 53.5,
+        "temporal": 45,
+        "color": 56.25
+      },
+      "hand": {
+        "overall": 34.25,
+        "blur": 36,
+        "noise": 40.25,
+        "artifact": 37.75,
+        "temporal": 30.875,
+        "color": 37
+      },
+      "video_sha256": "07f8fae98962f08053ff080e0cd7afb1ad540d03ca6cc8d0833401005132d66f"
+    },
+    {
+      "id": "P3",
+      "seed": 1,
+      "source_row": 12,
+      "filename": "P3_00001-audio.mp4",
+      "resolution": "1088×1920",
+      "config_columns": [
+        "Pika Flex Ref2VA",
+        6,
+        "手动6步（LCM；点列见参数表）",
+        "Pika Flex Ref2VA",
+        3,
+        "LCM 手动3步：0.571429 → 0.44949 → 0.333333 → 0"
+      ],
+      "elapsed_s": 215.3507580757141,
+      "native": {
+        "overall": 69,
+        "blur": 71,
+        "noise": 66.5,
+        "artifact": 70,
+        "temporal": 65.5,
+        "color": 69
+      },
+      "dover": {
+        "technical_mean": 14.338873462492042,
+        "aesthetic_mean": 99.44278390459607,
+        "overall_mean": 71.67921252657914
+      },
+      "face": {
+        "overall": 54.75,
+        "blur": 54.25,
+        "noise": 55.25,
+        "artifact": 55.25,
+        "temporal": 46.75,
+        "color": 57.5
+      },
+      "hand": {
+        "overall": 37,
+        "blur": 38.75,
+        "noise": 42.5,
+        "artifact": 40.25,
+        "temporal": 32.75,
+        "color": 39.25
+      },
+      "video_sha256": "812d18c42ff86144760e1c259998326d8c0a5dff5dd71a324066b07becd78409"
+    },
+    {
+      "id": "P3",
+      "seed": 2,
+      "source_row": 13,
+      "filename": "P3_00001-audio.mp4",
+      "resolution": "1088×1920",
+      "config_columns": [
+        "Pika Flex Ref2VA",
+        6,
+        "手动6步（LCM；点列见参数表）",
+        "Pika Flex Ref2VA",
+        3,
+        "LCM 手动3步：0.571429 → 0.44949 → 0.333333 → 0"
+      ],
+      "elapsed_s": 217.90348410606384,
+      "native": {
+        "overall": 69.5,
+        "blur": 71,
+        "noise": 66.5,
+        "artifact": 70,
+        "temporal": 66,
+        "color": 69.5
+      },
+      "dover": {
+        "technical_mean": 13.639387270017883,
+        "aesthetic_mean": 99.56029525098124,
+        "overall_mean": 72.8285591597322
+      },
+      "face": {
+        "overall": 53.5,
+        "blur": 53,
+        "noise": 54.25,
+        "artifact": 53.75,
+        "temporal": 45.25,
+        "color": 56.5
+      },
+      "hand": {
+        "overall": 35.75,
+        "blur": 37.25,
+        "noise": 41.25,
+        "artifact": 38.75,
+        "temporal": 31.875,
+        "color": 38.75
+      },
+      "video_sha256": "8da33da474f2a0aef050368e9c4792b8732207ab7ec0e75df52929d28c740050"
+    },
+    {
+      "id": "T8_4",
+      "seed": 1,
+      "source_row": 14,
+      "filename": "T8_4_00001-audio.mp4",
+      "resolution": "1088×1920",
+      "config_columns": [
+        "Pika Flex Ref2VA",
+        6,
+        "手动6步（LCM；点列见参数表）",
+        "Turbo v1.1",
+        4,
+        "手动4步等距 sigma：0.571429→0"
+      ],
+      "elapsed_s": 488.1990931034088,
+      "native": {
+        "overall": 69,
+        "blur": 71,
+        "noise": 66.5,
+        "artifact": 70,
+        "temporal": 65.5,
+        "color": 69
+      },
+      "dover": {
+        "technical_mean": 14.48737052729017,
+        "aesthetic_mean": 99.3834531407861,
+        "overall_mean": 71.01933054572599
+      },
+      "face": {
+        "overall": 54.5,
+        "blur": 53.5,
+        "noise": 55,
+        "artifact": 54.75,
+        "temporal": 46,
+        "color": 57.5
+      },
+      "hand": {
+        "overall": 36.5,
+        "blur": 37.75,
+        "noise": 42.5,
+        "artifact": 39.5,
+        "temporal": 33,
+        "color": 39.5
+      },
+      "video_sha256": "1420650532226e7ef17a7ad1eb8cc15fcfda0492bff014d080f5b7ea1e8882ab"
+    },
+    {
+      "id": "T8_4",
+      "seed": 2,
+      "source_row": 15,
+      "filename": "T8_4_00001-audio.mp4",
+      "resolution": "1088×1920",
+      "config_columns": [
+        "Pika Flex Ref2VA",
+        6,
+        "手动6步（LCM；点列见参数表）",
+        "Turbo v1.1",
+        4,
+        "手动4步等距 sigma：0.571429→0"
+      ],
+      "elapsed_s": 279.30789279937744,
+      "native": {
+        "overall": 69.5,
+        "blur": 71,
+        "noise": 66.5,
+        "artifact": 70,
+        "temporal": 65.5,
+        "color": 69.5
+      },
+      "dover": {
+        "technical_mean": 13.662111905735241,
+        "aesthetic_mean": 99.45014759481343,
+        "overall_mean": 71.08829546373649
+      },
+      "face": {
+        "overall": 53.25,
+        "blur": 52.75,
+        "noise": 54.25,
+        "artifact": 53.5,
+        "temporal": 44.75,
+        "color": 56.5
+      },
+      "hand": {
+        "overall": 34.75,
+        "blur": 36.75,
+        "noise": 40.75,
+        "artifact": 38.25,
+        "temporal": 31.5,
+        "color": 37.75
+      },
+      "video_sha256": "209a3b2d882fc4f64f87cd380b86802525919e292591917fadea71370eb3a087"
+    },
+    {
+      "id": "T8_8",
+      "seed": 1,
+      "source_row": 16,
+      "filename": "T8_8_00001-audio.mp4",
+      "resolution": "1088×1920",
+      "config_columns": [
+        "Pika Flex Ref2VA",
+        6,
+        "手动6步（LCM；点列见参数表）",
+        "Turbo v1.1",
+        8,
+        "手动8步等距 sigma：0.571429→0"
+      ],
+      "elapsed_s": 379.23921632766724,
+      "native": {
+        "overall": 69.5,
+        "blur": 71,
+        "noise": 66.5,
+        "artifact": 70,
+        "temporal": 65.5,
+        "color": 69
+      },
+      "dover": {
+        "technical_mean": 14.527168564109397,
+        "aesthetic_mean": 99.42704646662168,
+        "overall_mean": 71.6480391983556
+      },
+      "face": {
+        "overall": 55,
+        "blur": 54.25,
+        "noise": 55.5,
+        "artifact": 55.25,
+        "temporal": 46.75,
+        "color": 57.75
+      },
+      "hand": {
+        "overall": 36.25,
+        "blur": 37.5,
+        "noise": 42,
+        "artifact": 39,
+        "temporal": 32.75,
+        "color": 39.75
+      },
+      "video_sha256": "a469ac0c964f6c37d0fce1efa1cd41ed75b166de6d2e491e88c4f0a3902668ff"
+    },
+    {
+      "id": "T8_8",
+      "seed": 2,
+      "source_row": 17,
+      "filename": "T8_8_00001-audio.mp4",
+      "resolution": "1088×1920",
+      "config_columns": [
+        "Pika Flex Ref2VA",
+        6,
+        "手动6步（LCM；点列见参数表）",
+        "Turbo v1.1",
+        8,
+        "手动8步等距 sigma：0.571429→0"
+      ],
+      "elapsed_s": 377.38337564468384,
+      "native": {
+        "overall": 69.5,
+        "blur": 71,
+        "noise": 66.5,
+        "artifact": 70,
+        "temporal": 65.5,
+        "color": 69
+      },
+      "dover": {
+        "technical_mean": 13.858553822051686,
+        "aesthetic_mean": 99.4510501107049,
+        "overall_mean": 71.30711691257387
+      },
+      "face": {
+        "overall": 53.5,
+        "blur": 53,
+        "noise": 54.25,
+        "artifact": 54,
+        "temporal": 45,
+        "color": 56.5
+      },
+      "hand": {
+        "overall": 35.5,
+        "blur": 37,
+        "noise": 41.5,
+        "artifact": 38.75,
+        "temporal": 31.875,
+        "color": 38.25
+      },
+      "video_sha256": "bada23f601ef11d617e91303bc32f1858245accbe10e1c110a4a8e07bcb7b222"
+    },
+    {
+      "id": "T4_4",
+      "seed": 1,
+      "source_row": 18,
+      "filename": "T4_4_00001-audio.mp4",
+      "resolution": "1088×1920",
+      "config_columns": [
+        "Pika Flex Ref2VA",
+        6,
+        "手动6步（LCM；点列见参数表）",
+        "Turbo 4step v1.0",
+        4,
+        "手动4步等距 sigma：0.571429→0"
+      ],
+      "elapsed_s": 281.9754271507263,
+      "native": {
+        "overall": 69.5,
+        "blur": 71,
+        "noise": 66.5,
+        "artifact": 70,
+        "temporal": 65.5,
+        "color": 69
+      },
+      "dover": {
+        "technical_mean": 14.588234816086906,
+        "aesthetic_mean": 99.49083032187066,
+        "overall_mean": 72.63716997137446
+      },
+      "face": {
+        "overall": 55,
+        "blur": 54,
+        "noise": 55.5,
+        "artifact": 55.25,
+        "temporal": 46.5,
+        "color": 58
+      },
+      "hand": {
+        "overall": 37.75,
+        "blur": 39.25,
+        "noise": 43.25,
+        "artifact": 40.75,
+        "temporal": 34,
+        "color": 41
+      },
+      "video_sha256": "4e205e1cb1b7da1100014830045a8a2d45d0a2344b62768f54bb3d7d8a3f7a26"
+    },
+    {
+      "id": "T4_4",
+      "seed": 2,
+      "source_row": 19,
+      "filename": "T4_4_00001-audio.mp4",
+      "resolution": "1088×1920",
+      "config_columns": [
+        "Pika Flex Ref2VA",
+        6,
+        "手动6步（LCM；点列见参数表）",
+        "Turbo 4step v1.0",
+        4,
+        "手动4步等距 sigma：0.571429→0"
+      ],
+      "elapsed_s": 246.68962264060974,
+      "native": {
+        "overall": 69.5,
+        "blur": 71,
+        "noise": 66.5,
+        "artifact": 70,
+        "temporal": 66,
+        "color": 69.5
+      },
+      "dover": {
+        "technical_mean": 13.83952621481768,
+        "aesthetic_mean": 99.49807285250495,
+        "overall_mean": 71.99871513634433
+      },
+      "face": {
+        "overall": 54,
+        "blur": 53.25,
+        "noise": 54.75,
+        "artifact": 54.5,
+        "temporal": 45.5,
+        "color": 57
+      },
+      "hand": {
+        "overall": 35.75,
+        "blur": 37.25,
+        "noise": 41.5,
+        "artifact": 38.75,
+        "temporal": 32.25,
+        "color": 38.75
+      },
+      "video_sha256": "66e411b24abd5d3e3a6c2678e7e68b8c5f529c2c101aeb36814d6c9cea7e1fad"
+    },
+    {
+      "id": "B50",
+      "seed": 1,
+      "source_row": 20,
+      "filename": "B50_base_first50_00001-audio.mp4",
+      "resolution": "768×1344",
+      "config_columns": [
+        "无加速LoRA",
+        50,
+        "simple 50步；原始t=1-i/50（i=0..50），视频shift=12、音频shift=3；50次Euler更新",
+        "不适用",
+        "不适用",
+        "不适用"
+      ],
+      "elapsed_s": 664.2244708538055,
+      "native": {
+        "overall": 67.5,
+        "blur": 69,
+        "noise": 65,
+        "artifact": 68.5,
+        "temporal": 64.5,
+        "color": 67.5
+      },
+      "dover": {
+        "technical_mean": 13.551414185262011,
+        "aesthetic_mean": 99.61485958698326,
+        "overall_mean": 73.747804160526
+      },
+      "face": {
+        "overall": 47.75,
+        "blur": 45,
+        "noise": 50.25,
+        "artifact": 47,
+        "temporal": 41.5,
+        "color": 52.5
+      },
+      "hand": {
+        "overall": 29.75,
+        "blur": 30.125,
+        "noise": 36.75,
+        "artifact": 31.375,
+        "temporal": 28.875,
+        "color": 33.75
+      },
+      "video_sha256": "c8763e2b390f2d1d3b90e704e12a38870450f7642da0d58dbabcd5ba872e2079"
+    },
+    {
+      "id": "B50",
+      "seed": 2,
+      "source_row": 21,
+      "filename": "B50_base_first50_00001-audio.mp4",
+      "resolution": "768×1344",
+      "config_columns": [
+        "无加速LoRA",
+        50,
+        "simple 50步；原始t=1-i/50（i=0..50），视频shift=12、音频shift=3；50次Euler更新",
+        "不适用",
+        "不适用",
+        "不适用"
+      ],
+      "elapsed_s": 662.7277255058289,
+      "native": {
+        "overall": 67,
+        "blur": 68.5,
+        "noise": 65,
+        "artifact": 68,
+        "temporal": 63.25,
+        "color": 66.5
+      },
+      "dover": {
+        "technical_mean": 12.233164333646203,
+        "aesthetic_mean": 99.24078148912665,
+        "overall_mean": 66.72025755801339
+      },
+      "face": {
+        "overall": 43,
+        "blur": 39.25,
+        "noise": 46.75,
+        "artifact": 40,
+        "temporal": 40.75,
+        "color": 48
+      },
+      "hand": {
+        "overall": 31.25,
+        "blur": 33.25,
+        "noise": 38,
+        "artifact": 35.5,
+        "temporal": 29,
+        "color": 34.25
+      },
+      "video_sha256": "9f75cad2b0eee0efae062129edb7a06aba380b4359d8ae8933de122a38be4515"
+    }
+  ],
+  "configs": {
+    "A3": {
+      "id": "A3_ref_pika",
+      "stage": 1,
+      "model": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "lora": "pika_h3_flex_ref2va_v1_bf16.safetensors",
+      "sampler": "lcm",
+      "sigmas": [
+        1,
+        0.972973,
+        0.923077,
+        0.8,
+        0.571429,
+        0.333333,
+        0
+      ],
+      "width": 768,
+      "height": 1344
+    },
+    "U0": {
+      "id": "U0",
+      "model": "无（二采只放大解码）",
+      "lora": "无",
+      "has_acceleration_lora": false,
+      "sampler": "latent 放大后直接 VAE 解码",
+      "scheduler": null,
+      "steps": 0,
+      "sigmas": [
+        0.0
+      ],
+      "sigmas_text": "[0]",
+      "sigma_description": null,
+      "sigma_display": "[0]",
+      "width": 1088,
+      "height": 1920,
+      "decode_only": true,
+      "source": "A3_ref_pika"
+    },
+    "P2": {
+      "id": "P2",
+      "model": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "lora": "pika_h3_flex_ref2va_v1_bf16.safetensors",
+      "has_acceleration_lora": true,
+      "sampler": "lcm",
+      "scheduler": null,
+      "steps": 2,
+      "sigmas": [
+        0.5714285714285714,
+        0.3333333333333333,
+        0
+      ],
+      "sigmas_text": "[0.571429, 0.333333, 0]",
+      "sigma_description": null,
+      "sigma_display": "[0.571429, 0.333333, 0]",
+      "width": 1088,
+      "height": 1920,
+      "decode_only": false,
+      "source": "A3_ref_pika"
+    },
+    "P3": {
+      "id": "P3",
+      "model": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "lora": "pika_h3_flex_ref2va_v1_bf16.safetensors",
+      "has_acceleration_lora": true,
+      "sampler": "lcm",
+      "scheduler": null,
+      "steps": 3,
+      "sigmas": [
+        0.5714285714285714,
+        0.4494897427831781,
+        0.3333333333333333,
+        0
+      ],
+      "sigmas_text": "[0.571429, 0.44949, 0.333333, 0]",
+      "sigma_description": null,
+      "sigma_display": "[0.571429, 0.44949, 0.333333, 0]",
+      "width": 1088,
+      "height": 1920,
+      "decode_only": false,
+      "source": "A3_ref_pika"
+    },
+    "T4_4": {
+      "id": "T4_4",
+      "model": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "lora": "minimax_h3_ref2v_turbo_4step_v1.0_768p_comfyui_bf16.safetensors",
+      "has_acceleration_lora": true,
+      "sampler": "euler",
+      "scheduler": null,
+      "steps": 4,
+      "sigmas": [
+        0.5714285714285714,
+        0.42857142857142855,
+        0.2857142857142857,
+        0.14285714285714285,
+        0.0
+      ],
+      "sigmas_text": "[0.571429, 0.428571, 0.285714, 0.142857, 0]",
+      "sigma_description": null,
+      "sigma_display": "[0.571429, 0.428571, 0.285714, 0.142857, 0]",
+      "width": 1088,
+      "height": 1920,
+      "decode_only": false,
+      "source": "A3_ref_pika"
+    },
+    "T8_4": {
+      "id": "T8_4",
+      "model": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "lora": "minimax_h3_ref2v_turbo_8step_v1.1_768p_comfyui_bf16.safetensors",
+      "has_acceleration_lora": true,
+      "sampler": "euler",
+      "scheduler": null,
+      "steps": 4,
+      "sigmas": [
+        0.5714285714285714,
+        0.42857142857142855,
+        0.2857142857142857,
+        0.14285714285714285,
+        0.0
+      ],
+      "sigmas_text": "[0.571429, 0.428571, 0.285714, 0.142857, 0]",
+      "sigma_description": null,
+      "sigma_display": "[0.571429, 0.428571, 0.285714, 0.142857, 0]",
+      "width": 1088,
+      "height": 1920,
+      "decode_only": false,
+      "source": "A3_ref_pika"
+    },
+    "T8_8": {
+      "id": "T8_8",
+      "model": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "lora": "minimax_h3_ref2v_turbo_8step_v1.1_768p_comfyui_bf16.safetensors",
+      "has_acceleration_lora": true,
+      "sampler": "euler",
+      "scheduler": null,
+      "steps": 8,
+      "sigmas": [
+        0.5714285714285714,
+        0.5,
+        0.42857142857142855,
+        0.3571428571428571,
+        0.2857142857142857,
+        0.21428571428571427,
+        0.14285714285714285,
+        0.07142857142857142,
+        0.0
+      ],
+      "sigmas_text": "[0.571429, 0.5, 0.428571, 0.357143, 0.285714, 0.214286, 0.142857, 0.071429, 0]",
+      "sigma_description": null,
+      "sigma_display": "[0.571429, 0.5, 0.428571, 0.357143, 0.285714, 0.214286, 0.142857, 0.071429, 0]",
+      "width": 1088,
+      "height": 1920,
+      "decode_only": false,
+      "source": "A3_ref_pika"
+    },
+    "B50": {
+      "id": "B50_base_first50",
+      "model": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "lora": "无",
+      "has_acceleration_lora": false,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "steps": 50,
+      "sigmas": [
+        1.0,
+        0.99830220713073,
+        0.9965397923875433,
+        0.9947089947089947,
+        0.9928057553956835,
+        0.9908256880733946,
+        0.9887640449438203,
+        0.9866156787762907,
+        0.984375,
+        0.9820359281437124,
+        0.979591836734694,
+        0.9770354906054279,
+        0.9743589743589746,
+        0.9715536105032822,
+        0.968609865470852,
+        0.9655172413793103,
+        0.9622641509433962,
+        0.9588377723970946,
+        0.955223880597015,
+        0.9514066496163682,
+        0.9473684210526315,
+        0.943089430894309,
+        0.9385474860335197,
+        0.9337175792507205,
+        0.9285714285714285,
+        0.9230769230769231,
+        0.9171974522292994,
+        0.9108910891089109,
+        0.9041095890410958,
+        0.8967971530249111,
+        0.888888888888889,
+        0.8803088803088804,
+        0.870967741935484,
+        0.860759493670886,
+        0.8495575221238938,
+        0.8372093023255813,
+        0.823529411764706,
+        0.8082901554404145,
+        0.7912087912087913,
+        0.7719298245614035,
+        0.75,
+        0.7248322147651007,
+        0.6956521739130436,
+        0.6614173228346457,
+        0.6206896551724138,
+        0.5714285714285714,
+        0.5106382978723403,
+        0.4337349397590364,
+        0.33333333333333354,
+        0.19672131147540997,
+        0.0
+      ],
+      "sigmas_text": "[1, 0.998302, 0.99654, 0.994709, 0.992806, 0.990826, 0.988764, 0.986616, 0.984375, 0.982036, 0.979592, 0.977035, 0.974359, 0.971554, 0.96861, 0.965517, 0.962264, 0.958838, 0.955224, 0.951407, 0.947368, 0.943089, 0.938547, 0.933718, 0.928571, 0.923077, 0.917197, 0.910891, 0.90411, 0.896797, 0.888889, 0.880309, 0.870968, 0.860759, 0.849558, 0.837209, 0.823529, 0.80829, 0.791209, 0.77193, 0.75, 0.724832, 0.695652, 0.661417, 0.62069, 0.571429, 0.510638, 0.433735, 0.333333, 0.196721, 0]",
+      "sigma_description": "simple 50步；原始t=1-i/50（i=0..50），视频shift=12、音频shift=3；50次Euler更新",
+      "sigma_display": "simple 50步；原始t=1-i/50（i=0..50），视频shift=12、音频shift=3；50次Euler更新",
+      "width": 768,
+      "height": 1344,
+      "decode_only": false,
+      "source": null
+    }
+  },
+  "crop": {
+    "canvas": [
+      1088,
+      1920
+    ],
+    "face": [
+      332,
+      183,
+      448,
+      448
+    ],
+    "hand": [
+      151,
+      990,
+      448,
+      448
+    ]
+  },
+  "source_parameter_rows": [
+    {
+      "A": "种子1共享一采来源",
+      "B": "共享一采",
+      "C": "A3_ref_pika",
+      "D": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "E": "pika_h3_flex_ref2va_v1_bf16.safetensors",
+      "F": "lcm",
+      "G": "未单独指定",
+      "H": 6,
+      "I": "[1,0.972973,0.923077,0.8,0.571429,0.333333,0]",
+      "J": "手动6步（LCM；点列见参数表）",
+      "K": "768×1344",
+      "L": "参考图输入",
+      "M": "A3_ref_pika_00001-audio.mp4",
+      "N": "860407ea497c8d89dbbe8bcab1b154ecea260fccaeb9274dbc26000f70e1d08a",
+      "O": "未裁切",
+      "P": "未裁切",
+      "R": "此前生成并复用；不计入本批二采耗时"
+    },
+    {
+      "A": "种子1 U0",
+      "B": "仅放大解码",
+      "C": "U0",
+      "D": "不加载去噪模型",
+      "E": "无加速LoRA",
+      "F": "none",
+      "G": "未单独指定",
+      "H": 0,
+      "I": "[0]",
+      "J": "0步：仅放大 latent 后 VAE 解码",
+      "K": "1088×1920",
+      "L": "A3_ref_pika",
+      "M": "U0_00001-audio.mp4",
+      "N": "7e1c63c486136e3cb867b6b5bae1d74b13726e2d47241962ada2bacf2cba012c",
+      "O": "bc0bcf87280e4bd5156807397a421b100e7d3a775f3fc95191ce885ace467736",
+      "P": "10be86c0243d3bafc8e42a6c8e1b1a84a8451bc8fedd26e757a77cde06637cd5",
+      "Q": 63.61359119415283,
+      "R": "本阶段含latent放大、保存和解码；不含复用的一采"
+    },
+    {
+      "A": "种子1 P2",
+      "B": "二采",
+      "C": "P2",
+      "D": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "E": "pika_h3_flex_ref2va_v1_bf16.safetensors",
+      "F": "lcm",
+      "G": "未单独指定",
+      "H": 2,
+      "I": "[0.5714285714285714,0.3333333333333333,0]",
+      "J": "LCM 手动2步：0.571429 → 0.333333 → 0",
+      "K": "1088×1920",
+      "L": "A3_ref_pika",
+      "M": "P2_00001-audio.mp4",
+      "N": "e29fca3a591a0cbd25144bef8d2ea834c84fa1549e2751d4a23f5a1b16d34262",
+      "O": "1ce5513f78031410347d68afdfde1d5360840a315a345eea39faa26e2bf1f923",
+      "P": "944642585fadd7f7b8052a831b59f770bccd7eec195c5560145855495dbb5c9e",
+      "Q": 188.4927749633789,
+      "R": "本次二采阶段从已放大latent开始，含本次加载/采样/解码；不含复用一采与latent放大准备"
+    },
+    {
+      "A": "种子1 P3",
+      "B": "二采",
+      "C": "P3",
+      "D": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "E": "pika_h3_flex_ref2va_v1_bf16.safetensors",
+      "F": "lcm",
+      "G": "未单独指定",
+      "H": 3,
+      "I": "[0.5714285714285714,0.4494897427831781,0.3333333333333333,0]",
+      "J": "LCM 手动3步：0.571429 → 0.44949 → 0.333333 → 0",
+      "K": "1088×1920",
+      "L": "A3_ref_pika",
+      "M": "P3_00001-audio.mp4",
+      "N": "812d18c42ff86144760e1c259998326d8c0a5dff5dd71a324066b07becd78409",
+      "O": "c2e3c1239730c947ff0ad651c4b82aebf814cb41bc32c04f427c3c2f72790b0c",
+      "P": "1c4a56206dfb8f101dab3814504f63ef63237c613f3b51748ad242eaafb12093",
+      "Q": 215.3507580757141,
+      "R": "本次二采阶段从已放大latent开始，含本次加载/采样/解码；不含复用一采与latent放大准备"
+    },
+    {
+      "A": "种子1 T8_4",
+      "B": "二采",
+      "C": "T8_4",
+      "D": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "E": "minimax_h3_ref2v_turbo_8step_v1.1_768p_comfyui_bf16.safetensors",
+      "F": "euler",
+      "G": "未单独指定",
+      "H": 4,
+      "I": "[0.5714285714285714,0.42857142857142855,0.2857142857142857,0.14285714285714285,0]",
+      "J": "手动4步等距 sigma：0.571429→0",
+      "K": "1088×1920",
+      "L": "A3_ref_pika",
+      "M": "T8_4_00001-audio.mp4",
+      "N": "1420650532226e7ef17a7ad1eb8cc15fcfda0492bff014d080f5b7ea1e8882ab",
+      "O": "f53776b9bc686b7149d7f90129e28bd7eaeac432a3d96eb19875f56bdf2cd994",
+      "P": "cb769cb9789f0fd2a5da7cc5249950fc705ff4c9601b9000633212c0877a8c6e",
+      "Q": 488.1990931034088,
+      "R": "本次二采阶段从已放大latent开始，含本次加载/采样/解码；不含复用一采与latent放大准备"
+    },
+    {
+      "A": "种子1 T8_8",
+      "B": "二采",
+      "C": "T8_8",
+      "D": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "E": "minimax_h3_ref2v_turbo_8step_v1.1_768p_comfyui_bf16.safetensors",
+      "F": "euler",
+      "G": "未单独指定",
+      "H": 8,
+      "I": "[0.5714285714285714,0.5,0.42857142857142855,0.3571428571428571,0.2857142857142857,0.21428571428571427,0.14285714285714285,0.07142857142857142,0]",
+      "J": "手动8步等距 sigma：0.571429→0",
+      "K": "1088×1920",
+      "L": "A3_ref_pika",
+      "M": "T8_8_00001-audio.mp4",
+      "N": "a469ac0c964f6c37d0fce1efa1cd41ed75b166de6d2e491e88c4f0a3902668ff",
+      "O": "43608d1d407c1dfd0290384954a63aa108eea4b66c477ef28f4cad67ed208b0d",
+      "P": "864fa24e6da8fddb922f6697d6b00e25fc89c282ea020b23cf75834cfbe07061",
+      "Q": 379.23921632766724,
+      "R": "本次二采阶段从已放大latent开始，含本次加载/采样/解码；不含复用一采与latent放大准备"
+    },
+    {
+      "A": "种子1 T4_4",
+      "B": "二采",
+      "C": "T4_4",
+      "D": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "E": "minimax_h3_ref2v_turbo_4step_v1.0_768p_comfyui_bf16.safetensors",
+      "F": "euler",
+      "G": "未单独指定",
+      "H": 4,
+      "I": "[0.5714285714285714,0.42857142857142855,0.2857142857142857,0.14285714285714285,0]",
+      "J": "手动4步等距 sigma：0.571429→0",
+      "K": "1088×1920",
+      "L": "A3_ref_pika",
+      "M": "T4_4_00001-audio.mp4",
+      "N": "4e205e1cb1b7da1100014830045a8a2d45d0a2344b62768f54bb3d7d8a3f7a26",
+      "O": "42decba28ab70f8651eb7f7c9d48272100d680cff739b38a14be18bf2663ba25",
+      "P": "59bdd30aefdb66c799234aa17bdb103c5e26ebd5e26bfce4c95b5f5cfbe4a8b6",
+      "Q": 281.9754271507263,
+      "R": "本次二采阶段从已放大latent开始，含本次加载/采样/解码；不含复用一采与latent放大准备"
+    },
+    {
+      "A": "种子1 B50_base_first50",
+      "B": "独立一采基准",
+      "C": "B50_base_first50",
+      "D": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "E": "无加速LoRA",
+      "F": "euler",
+      "G": "simple",
+      "H": 50,
+      "I": "[1,0.99830220713073,0.9965397923875433,0.9947089947089947,0.9928057553956835,0.9908256880733946,0.9887640449438203,0.9866156787762907,0.984375,0.9820359281437124,0.979591836734694,0.9770354906054279,0.9743589743589746,0.9715536105032822,0.968609865470852,0.9655172413793103,0.9622641509433962,0.9588377723970946,0.955223880597015,0.9514066496163682,0.9473684210526315,0.943089430894309,0.9385474860335197,0.9337175792507205,0.9285714285714285,0.9230769230769231,0.9171974522292994,0.9108910891089109,0.9041095890410958,0.8967971530249111,0.888888888888889,0.8803088803088804,0.870967741935484,0.860759493670886,0.8495575221238938,0.8372093023255813,0.823529411764706,0.8082901554404145,0.7912087912087913,0.7719298245614035,0.75,0.7248322147651007,0.6956521739130436,0.6614173228346457,0.6206896551724138,0.5714285714285714,0.5106382978723403,0.4337349397590364,0.33333333333333354,0.19672131147540997,0]",
+      "J": "simple 50步；原始t=1-i/50（i=0..50），视频shift=12、音频shift=3；50次Euler更新",
+      "K": "768×1344",
+      "L": "参考图输入",
+      "M": "B50_base_first50_00001-audio.mp4",
+      "N": "c8763e2b390f2d1d3b90e704e12a38870450f7642da0d58dbabcd5ba872e2079",
+      "O": "813a4cc323f92444181edefce3b0372bd67ac43ada5faccd903a217627d8d55c",
+      "P": "24d940fbce37acd462264dd1295acead2b3dd24861a120b7c037167d50097d61",
+      "Q": 664.2244708538055,
+      "R": "独立一采完整阶段耗时"
+    },
+    {
+      "A": "种子2共享一采来源",
+      "B": "共享一采",
+      "C": "A3_ref_pika",
+      "D": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "E": "pika_h3_flex_ref2va_v1_bf16.safetensors",
+      "F": "lcm",
+      "G": "未单独指定",
+      "H": 6,
+      "I": "[1,0.972973,0.923077,0.8,0.571429,0.333333,0]",
+      "J": "手动6步（LCM；点列见参数表）",
+      "K": "768×1344",
+      "L": "参考图输入",
+      "M": "A3_ref_pika_00001-audio.mp4",
+      "N": "e6a7960959b47c04dc6334a556dcd6565f92a6e6bf1514b73ca38513d953f52b",
+      "O": "未裁切",
+      "P": "未裁切",
+      "R": "此前生成并复用；不计入本批二采耗时"
+    },
+    {
+      "A": "种子2 U0",
+      "B": "仅放大解码",
+      "C": "U0",
+      "D": "不加载去噪模型",
+      "E": "无加速LoRA",
+      "F": "none",
+      "G": "未单独指定",
+      "H": 0,
+      "I": "[0]",
+      "J": "0步：仅放大 latent 后 VAE 解码",
+      "K": "1088×1920",
+      "L": "A3_ref_pika",
+      "M": "U0_00001-audio.mp4",
+      "N": "9f598c876c9959c883672b057edf7be9a0db4eb07802440fec9459c6f649e261",
+      "O": "92a3e179826c763d786863372c49d548dc156faca0648f44fb6e6d528a60cd28",
+      "P": "3baed3ae061371c402009a162c9bd4131202e39029d74018de592d66c4d79933",
+      "Q": 59.02288746833801,
+      "R": "本阶段含latent放大、保存和解码；不含复用的一采"
+    },
+    {
+      "A": "种子2 P2",
+      "B": "二采",
+      "C": "P2",
+      "D": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "E": "pika_h3_flex_ref2va_v1_bf16.safetensors",
+      "F": "lcm",
+      "G": "未单独指定",
+      "H": 2,
+      "I": "[0.5714285714285714,0.3333333333333333,0]",
+      "J": "LCM 手动2步：0.571429 → 0.333333 → 0",
+      "K": "1088×1920",
+      "L": "A3_ref_pika",
+      "M": "P2_00001-audio.mp4",
+      "N": "07f8fae98962f08053ff080e0cd7afb1ad540d03ca6cc8d0833401005132d66f",
+      "O": "393fe3a22393deac455e0945160b94e19d6b4ccc019ad4bf7b6ef161861e3ce9",
+      "P": "10df58e1c6f0e7424362b5d4db2a396c1322e2c242b29013d247781b13b22d4e",
+      "Q": 179.38625049591064,
+      "R": "本次二采阶段从已放大latent开始，含本次加载/采样/解码；不含复用一采与latent放大准备"
+    },
+    {
+      "A": "种子2 P3",
+      "B": "二采",
+      "C": "P3",
+      "D": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "E": "pika_h3_flex_ref2va_v1_bf16.safetensors",
+      "F": "lcm",
+      "G": "未单独指定",
+      "H": 3,
+      "I": "[0.5714285714285714,0.4494897427831781,0.3333333333333333,0]",
+      "J": "LCM 手动3步：0.571429 → 0.44949 → 0.333333 → 0",
+      "K": "1088×1920",
+      "L": "A3_ref_pika",
+      "M": "P3_00001-audio.mp4",
+      "N": "8da33da474f2a0aef050368e9c4792b8732207ab7ec0e75df52929d28c740050",
+      "O": "68fe6ae711c71c512aeceeb21f80022a54f8ba8fd44c011050c2b20ef470311d",
+      "P": "a6944b95c8e1bc3f2b880e6ee1472dcecceebd8a6e4902115a040b4354c0035a",
+      "Q": 217.90348410606384,
+      "R": "本次二采阶段从已放大latent开始，含本次加载/采样/解码；不含复用一采与latent放大准备"
+    },
+    {
+      "A": "种子2 T8_4",
+      "B": "二采",
+      "C": "T8_4",
+      "D": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "E": "minimax_h3_ref2v_turbo_8step_v1.1_768p_comfyui_bf16.safetensors",
+      "F": "euler",
+      "G": "未单独指定",
+      "H": 4,
+      "I": "[0.5714285714285714,0.42857142857142855,0.2857142857142857,0.14285714285714285,0]",
+      "J": "手动4步等距 sigma：0.571429→0",
+      "K": "1088×1920",
+      "L": "A3_ref_pika",
+      "M": "T8_4_00001-audio.mp4",
+      "N": "209a3b2d882fc4f64f87cd380b86802525919e292591917fadea71370eb3a087",
+      "O": "1080af08a6952c39c316247ec962273d594cf8220197912cffacd13cb294c6d4",
+      "P": "a81451852ba420cd954348373fce1b409491476d9764cd5972914755412a5657",
+      "Q": 279.30789279937744,
+      "R": "本次二采阶段从已放大latent开始，含本次加载/采样/解码；不含复用一采与latent放大准备"
+    },
+    {
+      "A": "种子2 T8_8",
+      "B": "二采",
+      "C": "T8_8",
+      "D": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "E": "minimax_h3_ref2v_turbo_8step_v1.1_768p_comfyui_bf16.safetensors",
+      "F": "euler",
+      "G": "未单独指定",
+      "H": 8,
+      "I": "[0.5714285714285714,0.5,0.42857142857142855,0.3571428571428571,0.2857142857142857,0.21428571428571427,0.14285714285714285,0.07142857142857142,0]",
+      "J": "手动8步等距 sigma：0.571429→0",
+      "K": "1088×1920",
+      "L": "A3_ref_pika",
+      "M": "T8_8_00001-audio.mp4",
+      "N": "bada23f601ef11d617e91303bc32f1858245accbe10e1c110a4a8e07bcb7b222",
+      "O": "8bc752dec72e37b54b0fc830ef91ab930687254ea8c82e936c03e1b12bb9e51b",
+      "P": "645dd4feebea4fc856dbd73b9a59ecfeab8c1290e842bbf8b01041d1f3fcad9d",
+      "Q": 377.38337564468384,
+      "R": "本次二采阶段从已放大latent开始，含本次加载/采样/解码；不含复用一采与latent放大准备"
+    },
+    {
+      "A": "种子2 T4_4",
+      "B": "二采",
+      "C": "T4_4",
+      "D": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "E": "minimax_h3_ref2v_turbo_4step_v1.0_768p_comfyui_bf16.safetensors",
+      "F": "euler",
+      "G": "未单独指定",
+      "H": 4,
+      "I": "[0.5714285714285714,0.42857142857142855,0.2857142857142857,0.14285714285714285,0]",
+      "J": "手动4步等距 sigma：0.571429→0",
+      "K": "1088×1920",
+      "L": "A3_ref_pika",
+      "M": "T4_4_00001-audio.mp4",
+      "N": "66e411b24abd5d3e3a6c2678e7e68b8c5f529c2c101aeb36814d6c9cea7e1fad",
+      "O": "ff98a9c167a0cf0dbf73e6634e6700facedac5932b83724586c6c9163541908b",
+      "P": "b441a0039ec69c6b74eb48daf65c8240ce8fe4531430d440279b0d8bcd115813",
+      "Q": 246.68962264060974,
+      "R": "本次二采阶段从已放大latent开始，含本次加载/采样/解码；不含复用一采与latent放大准备"
+    },
+    {
+      "A": "种子2 B50_base_first50",
+      "B": "独立一采基准",
+      "C": "B50_base_first50",
+      "D": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "E": "无加速LoRA",
+      "F": "euler",
+      "G": "simple",
+      "H": 50,
+      "I": "[1,0.99830220713073,0.9965397923875433,0.9947089947089947,0.9928057553956835,0.9908256880733946,0.9887640449438203,0.9866156787762907,0.984375,0.9820359281437124,0.979591836734694,0.9770354906054279,0.9743589743589746,0.9715536105032822,0.968609865470852,0.9655172413793103,0.9622641509433962,0.9588377723970946,0.955223880597015,0.9514066496163682,0.9473684210526315,0.943089430894309,0.9385474860335197,0.9337175792507205,0.9285714285714285,0.9230769230769231,0.9171974522292994,0.9108910891089109,0.9041095890410958,0.8967971530249111,0.888888888888889,0.8803088803088804,0.870967741935484,0.860759493670886,0.8495575221238938,0.8372093023255813,0.823529411764706,0.8082901554404145,0.7912087912087913,0.7719298245614035,0.75,0.7248322147651007,0.6956521739130436,0.6614173228346457,0.6206896551724138,0.5714285714285714,0.5106382978723403,0.4337349397590364,0.33333333333333354,0.19672131147540997,0]",
+      "J": "simple 50步；原始t=1-i/50（i=0..50），视频shift=12、音频shift=3；50次Euler更新",
+      "K": "768×1344",
+      "L": "参考图输入",
+      "M": "B50_base_first50_00001-audio.mp4",
+      "N": "9f75cad2b0eee0efae062129edb7a06aba380b4359d8ae8933de122a38be4515",
+      "O": "e382ccf91460fe031de5865dfe5fe004ff803b8aba40506e21f4b4fa6f81f1c9",
+      "P": "de9ebbb9896683f73d13ace564b0d1a566d86646b0f525487cc6e2f9d9f0a0b5",
+      "Q": 662.7277255058289,
+      "R": "独立一采完整阶段耗时"
+    }
+  ]
+}

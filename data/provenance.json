@@ -1,0 +1,32 @@
+{
+  "schema": "h3_report_provenance_v1",
+  "sources": [
+    {
+      "filename": "H3两种子二采对照.xlsx",
+      "sha256": "f575e0aa24c119f52f979c2fd70efbe137e9998cb9adf815c63c60b516bc4862",
+      "used": "评分汇总 A8:AK21；采样参数与来源 A5:R37"
+    },
+    {
+      "filename": "视频要求.md",
+      "sha256": "ff512a8bdd81bd94dc6d6fcbb8c313b9ef1b8dcc38bfa64ffcd5c8ce98bc7b93",
+      "used": "第四部分实验数据参考、第五部分测试结论；其余制作安排不执行"
+    },
+    {
+      "filename": "compare_two_seeds.json",
+      "sha256": "5cab966b667939d9a7254b48a5149266e2f142d18b589f2de97a9b58c432672a",
+      "used": "核对14条耗时、294个评分及视频身份"
+    }
+  ],
+  "verification": {
+    "result_rows": 14,
+    "evaluated_scores_checked": 294,
+    "unevaluated_dover_crop_cells": 84,
+    "scores_match_comparison_json": true,
+    "durations_match_comparison_json": true
+  },
+  "publication_notes": [
+    "评分子项中文化，数值不重新归一化。",
+    "Markdown仅为阅读格式化，JSON及CSV保留数值精度。",
+    "不包含生成权重、登录信息或原始服务器目录。"
+  ]
+}
